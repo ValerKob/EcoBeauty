@@ -283,3 +283,21 @@ input[type='radio']:checked:after {
 
     color: #000000;
 }
+
+.basketShapeBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    width: 370px;
+    height: 52px;
+
+    background: #892484;
+    border-radius: 8px;
+
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+
+    color: #FFFFFF;
+}
