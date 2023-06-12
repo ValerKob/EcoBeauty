@@ -1,0 +1,130 @@
+/* Catalog */
+.catalog {
+    margin: 64px 0 96px;
+}
+
+.catalogFilter {
+    display: flex;
+    justify-content: space-between;
+}
+
+.catalogFilterCat {
+    display: flex;
+}
+
+.catalogFilterBrand {
+    display: flex;
+    align-items: center;
+
+    margin-right: 110px;
+}
+
+.catalogFilterBrand:last-child {
+    margin-right: 0;
+}
+
+.catalogFilterName {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 19px;
+
+    color: #000000;
+
+    margin-left: 4px;
+}
+
+.catalogInfo {
+    display: flex;
+    align-items: center;
+    margin-top: 64px;
+    align-items: center;
+}
+
+.catalogPages {
+    display: flex;
+    align-items: center;
+}
+
+.catalogItems {
+    display: flex;
+    margin: 0 16px;
+}
+
+.catalogLink {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 32px;
+    height: 32px;
+    margin-right: 8px;
+
+    border: 1px solid #892484;
+    border-radius: 4px;
+    color: #000;
+
+    cursor: pointer;
+}
+
+.catalogLink:last-child {
+    margin-right: 0;
+}
+
+.catalogLink.active {
+    background: #892484;
+    color: #fff;
+}
+
+.catalogLink.catalogMany {
+    border: none;
+    border-radius: 0;
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+
+    color: #B0B0B0;
+}
+
+.catalogBtnShowMore {
+    width: 183px;
+    height: 52px;
+    margin-left: 225px;
+
+    background: #00A4E0;
+    border-radius: 8px;
+    color: #fff;
+}
+
+/* Sale */
+.catalogSale {
+    position: relative;
+    margin-bottom: 64px;
+}
+
+.saleContent {
+    position: absolute;
+    top: 50%;
+    left: 50px;
+    transform: translateY(-50%);
+}
+
+.saleTitle {
+    width: 620px;
+
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 65px;
+
+    color: #FFFFFF;
+}
+
+.saleText {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+
+    margin-top: 24px;
+
+    color: #FFFFFF;
+}

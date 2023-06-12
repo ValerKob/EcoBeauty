@@ -1,0 +1,44 @@
+/* Contact */
+.contact {
+    margin: 64px 0 128px;
+}
+
+.contactWrapper {
+    display: flex;
+    justify-content: space-between;
+
+    margin-top: 32px;
+}
+
+.contactContent {
+    width: 270px;
+}
+
+.contactTitle {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 22px;
+
+    color: #892484;
+    margin-bottom: 8px;
+}
+
+.contactText {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+
+    color: #000000;
+    margin-bottom: 8px;
+}
+
+.contactText:last-child {
+    margin-bottom: 16px;
+}
+
+.contactMap {
+    width: 770px;
+    height: 403px;
+
+    border-radius: 8px;
+}

@@ -1,0 +1,45 @@
+/* Order */
+.order {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+
+    height: calc(100vh - 395px);
+}
+
+
+.orderTitle {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+
+    color: #000000;
+}
+
+.orderText {
+    width: 370px;
+    margin: 24px auto;
+
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+
+    color: #000000;
+}
+
+.orderBtn {
+    width: 237px;
+    height: 52px;
+
+    background: #892484;
+    border-radius: 8px;
+}
+
+.orderBtn a {
+    color: #fff;
+}

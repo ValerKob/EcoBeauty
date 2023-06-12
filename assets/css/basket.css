@@ -1,0 +1,285 @@
+/* Basket */
+.basket {
+    margin: 64px 0 128px;
+}
+
+.basketWrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 64px;
+}
+
+.basketCards {
+    margin-right: 30px;
+}
+
+.basketCard {
+    display: flex;
+    justify-content: space-between;
+
+    margin-bottom: 33px;
+}
+
+.basketCard:last-child {
+    margin-bottom: 0;
+}
+
+.basketCardImg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 170px;
+    height: 170px;
+
+    margin-right: 32px;
+
+    background: #FFE8F6;
+    border-radius: 8px;
+}
+
+.basketCardWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.basketCardStart {
+    width: 570px;
+}
+
+.basketCardTitle {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 22px;
+
+    color: #000000;
+}
+
+.basketCardText {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 22px;
+    margin-top: 8px;
+
+    color: #B0B0B0;
+}
+
+.basketCardEnd {
+    display: flex;
+    justify-content: space-between;
+    width: 570px;
+}
+
+.basketCardCol {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 126px;
+    height: 33px;
+
+    border: 2px solid #892484;
+    border-radius: 8px;
+}
+
+.basketCardColMinus {
+    width: 16px;
+    height: 2px;
+    
+    background: #000000;
+}
+
+.basketCardColPlus {
+    position: relative;
+    width: 16px;
+    height: 2px;
+
+    background: #000000;
+}
+
+.basketCardColPlus::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 16px;
+    height: 2px;
+
+    background: #000000;
+    transform: rotate(-90deg);
+}
+
+.basketCardPrice {
+    display: flex;
+    align-items: end;
+}
+
+.basketCardPriceNew {
+    font-weight: 600;
+    font-size: 36px;
+    margin-right: 8px;
+
+    color: #000000;
+}
+
+.basketCardPricePast {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 28px;
+
+    text-decoration-line: line-through;
+
+    color: #B0B0B0;
+}
+
+/* Shape */
+.basketShape {
+    width: 370px;
+}
+
+.basketShapeForm {
+    width: 370px;
+    height: auto;
+    
+    background: #F8F8F8;
+    border-radius: 8px;
+    padding: 24px;
+
+    margin-bottom: 16px;
+}
+
+.basketShapeForm:last-child {
+    margin-bottom: 16px;
+}
+
+.basketShapeName {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+
+    color: #000000;
+}
+
+.basketShapeContent {
+    display: flex;
+    justify-content: space-between;
+
+    margin-top: 16px;
+}
+
+.basketShapeCol {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+
+    color: #892484;
+}
+
+.basketShapePrice {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+
+    color: #892484;
+}
+
+.basketShapeTitle {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 22px;
+
+    color: #000000;
+
+    margin-top: 8px;
+}
+
+.basketShapeInfo {
+    display: flex;
+    justify-content: space-between;
+
+    margin-top: 16px;
+}
+
+.basketShapeFinalCol {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 33px;
+
+    color: #000000;
+}
+
+.basketShapeFinalPrice {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 33px;
+
+    color: #000000;
+}
+
+/* Input */
+.basketShapeFormMT {
+    margin-top: 16px;
+}
+
+.basketShapeFormInput {
+    width: 322px;
+    height: 43px;
+
+    margin-top: 16px;
+    padding: 12px 24px;
+
+    border: 1px solid #892484;
+    border-radius: 8px;
+}
+
+.basketShapeFormGroup {
+    margin-bottom: 12px;
+}
+
+/* .basketShapeFormRadio {
+    width: 16px;
+    height: 16px;
+
+    background: #892484;
+} */
+
+input[type='radio']:after {
+    width: 16px;
+    height: 16px;
+    border-radius: 16px;
+    top: -2px;
+    left: -2px;
+    position: relative;
+    background-color: #fff;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 3px solid #B0B0B0;
+}
+
+input[type='radio']:checked:after {
+    width: 16px;
+    height: 16px;
+    border-radius: 16px;
+    top: -2px;
+    left: -2px;
+    position: relative;
+    background-color: #892484;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid white;
+}
+
+.basketShapeFormRadioImg {
+    margin: 0 12px 0 12px;
+}
+
+.basketShapeFormRadioTitle {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 22px;
+
+    color: #000000;
+}

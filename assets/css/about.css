@@ -1,0 +1,27 @@
+/* About */
+.about {
+    margin-top: 64px;
+}
+
+.aboutContent {
+    display: flex;
+    justify-content: space-between;
+    margin: 32px 0 64px;
+}
+
+.aboutText {
+    width: 570px;
+
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 22px;
+
+    color: #000000;
+}
+
+.aboutImg {
+    width: 570px;
+    height: 264px;  
+    
+    border-radius: 8px;
+}

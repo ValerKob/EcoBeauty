@@ -1,0 +1,36 @@
+/* Delivery */
+.delivery {
+    margin: 64px 0 128px;
+}
+
+.deliveryTitle {
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 44px;
+
+    color: #000000;
+}
+
+.deliveryContent {
+    width: 570px;
+    
+    margin-top: 32px;
+}
+
+.deliveryContentTitle {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+
+    color: #000000;
+}
+
+.deliveryContentText {
+    margin-top: 16px;
+    
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 22px;
+
+    color: #000000;
+}
