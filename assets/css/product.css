@@ -62,11 +62,11 @@
     color: #000000;
 }
 
-.productTegs {
+.productsTegs {
     display: flex;
 }
 
-.productTeg {
+.productsTeg {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -88,7 +88,7 @@
     color: #B0B0B0;
 }
 
-.productTeg:last-child {
+.productsTeg:last-child {
     margin: 16px 0 0 0;
 }
 
@@ -106,8 +106,9 @@
 .productsPricePast {
     font-weight: 300;
     font-size: 16px;
-    line-height: 28px;
-    /* identical to box height */
+    line-height: 52px;
+
+    margin-left: 8px;
 
     text-decoration-line: line-through;
 
